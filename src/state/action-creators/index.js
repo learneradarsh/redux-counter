@@ -1,4 +1,5 @@
 export const increment = (value) => {
+    console.log(value);
     return (dispatch) => {
         dispatch({
             type: 'INC',
